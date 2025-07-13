@@ -25,12 +25,11 @@ export default function Home() {
   return (
     <ErrorBoundary>
       <a
-  href="#main"
-  className="absolute left-[-999px] focus:left-4 focus:top-4 bg-white text-black p-2 z-50 rounded shadow no-underline hover:no-underline focus:no-underline"
->
-  Skip to content
-</a>
-
+        href="#main"
+        className="absolute left-[-999px] focus:left-4 focus:top-4 bg-white text-black p-2 z-50 rounded shadow no-underline hover:no-underline focus:no-underline"
+      >
+        Skip to content
+      </a>
       <main id="main" className="p-6 max-w-2xl mx-auto">
         <h1 className="text-2xl font-bold mb-4">User Feed</h1>
 

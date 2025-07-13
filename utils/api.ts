@@ -4,7 +4,9 @@ export interface User {
   lastName: string;
   email: string;
   image: string;
-  // add other fields as needed
+  company: {
+    title: string;
+  };
 }
 
 export interface UsersResponse {

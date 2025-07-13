@@ -1,40 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 👥 Infinite Scroll - User Feed (React + Next.js)
 
-## Getting Started
+This project demonstrates an **infinite scrolling user feed** using **React Query**, **IntersectionObserver**, and **Next.js App Router**. It fetches paginated user data from an external API and loads more users as you scroll.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- ✅ Infinite scroll using `IntersectionObserver`
+- ✅ Paginated API fetching with `React Query`
+- ✅ Modular and reusable `<UserCard />` component
+- ✅ Error handling and loading states
+- ✅ Graceful fallback UI when no data is found
+- ✅ Built with TypeScript + Next.js App Router
+
+---
+
+## 🔧 Tech Stack
+
+- [Next.js](https://nextjs.org/) 15 (App Router)
+- [React Query](https://tanstack.com/query/v4)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/) (or your preferred CSS framework)
+- IntersectionObserver API for scroll detection
+
+---
+
+## 📦 Installation
 
 ```bash
+git clone https://github.com/your-username/infinite-scroll-user-feed.git
+cd infinite-scroll-user-feed
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
